@@ -428,6 +428,7 @@ function separatorWithWhitespace(
 }
 
 function maybeWrapJsxElementInParens(path, elem, options) {
+  return elem;
   const parent = path.getParentNode();
   /* istanbul ignore next */
   if (!parent) {
