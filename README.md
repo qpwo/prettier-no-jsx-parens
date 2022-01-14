@@ -1,6 +1,30 @@
 #  prettier-no-jsx-parens
 
-Prettier without so many parenthesis in jsx/tsx. Not perfect but decent. Seems to work fine with a global install in my testing.
+Prettier without so many parenthesis in jsx/tsx. Not perfect but decent. Seems to work fine with a global or a local install in my testing.
+
+## Example comparison
+
+```jsx
+// prettier-no-jsx-parens:
+function User({ username }) {
+  return <>
+    <span>User:</span>
+    <span>{username}</span>
+  </>;
+}
+
+// regular prettier:
+function User({ username }) {
+  return (
+    <>
+      <span>User:</span>
+      <span>{username}</span>
+    </>
+  );
+}
+```
+
+## Installation
 
 ```bash
 npm i --save-dev prettier-no-jsx-parens
@@ -17,11 +41,10 @@ Then in your `package.json`:
 }
 ```
 
-
-Should use the same binary for CLI, `prettier`, but if it ends up as `prettier-no-jsx-parens` then just add this to your bashrc or zshrc:
-
 ```bash
-alias prettier="prettier-no-jsx-parens"
+echo 'alias prettier="prettier-no-jsx-parens"' >> ~/.bashrc
+# or
+echo 'alias prettier="prettier-no-jsx-parens"' >> ~/.zshrc
 ```
 
 ## Vscode setting

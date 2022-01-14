@@ -1,6 +1,6 @@
 {
   "name": "prettier-no-jsx-parens",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "description": "Prettier but without the jsx parens",
   "bin": "./bin/prettier.js",
   "repository": "qpwo/prettier-no-jsx-parens",
