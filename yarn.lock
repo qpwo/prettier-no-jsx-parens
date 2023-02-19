@@ -1820,11 +1820,6 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.9.0.tgz#e5619803e39d24a03b3369506df196355736e1a3"
   integrity sha512-mWp6/b56Umo1rwyGCk8fPIzb9Migo8YOniBGPAQDNC6C52SeyNGN4gsVwQTAR+RS2L5xyajON4hOLwAGwPtUwg==
 
-"@typescript-eslint/types@5.9.0":
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.9.0.tgz#e5619803e39d24a03b3369506df196355736e1a3"
-  integrity sha512-mWp6/b56Umo1rwyGCk8fPIzb9Migo8YOniBGPAQDNC6C52SeyNGN4gsVwQTAR+RS2L5xyajON4hOLwAGwPtUwg==
-
 "@typescript-eslint/typescript-estree@5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.5.0.tgz#12f422698c1636bd0206086bbec9844c54625ebc"
@@ -1851,33 +1846,12 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/typescript-estree@5.9.0":
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.9.0.tgz#0e5c6f03f982931abbfbc3c1b9df5fbf92a3490f"
-  integrity sha512-kxo3xL2mB7XmiVZcECbaDwYCt3qFXz99tBSuVJR4L/sR7CJ+UNAPrYILILktGj1ppfZ/jNt/cWYbziJUlHl1Pw==
-  dependencies:
-    "@typescript-eslint/types" "5.9.0"
-    "@typescript-eslint/visitor-keys" "5.9.0"
-    debug "^4.3.2"
-    globby "^11.0.4"
-    is-glob "^4.0.3"
-    semver "^7.3.5"
-    tsutils "^3.21.0"
-
 "@typescript-eslint/visitor-keys@5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.5.0.tgz#4787586897b61f26068a3db5c50b3f5d254f9083"
   integrity sha512-4GzJ1kRtsWzHhdM40tv0ZKHNSbkDhF0Woi/TDwVJX6UICwJItvP7ZTXbjTkCdrors7ww0sYe0t+cIKDAJwZ7Kw==
   dependencies:
     "@typescript-eslint/types" "5.5.0"
-    eslint-visitor-keys "^3.0.0"
-
-"@typescript-eslint/visitor-keys@5.9.0":
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.9.0.tgz#7585677732365e9d27f1878150fab3922784a1a6"
-  integrity sha512-6zq0mb7LV0ThExKlecvpfepiB+XEtFv/bzx7/jKSgyXTFD7qjmSu1FoiS0x3OZaiS+UIXpH2vd9O89f02RCtgw==
-  dependencies:
-    "@typescript-eslint/types" "5.9.0"
     eslint-visitor-keys "^3.0.0"
 
 "@typescript-eslint/visitor-keys@5.9.0":
@@ -4982,10 +4956,10 @@ merge2@^1.3.0:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-meriyah@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/meriyah/-/meriyah-4.2.0.tgz#29d28c37ac7b67f8b9aaa92df0b8ac12469fe98b"
-  integrity sha512-fCVh5GB9YT53Bq14l00HLYE3i9DywrY0JVZxbk0clXWDuMsUKKwluvC5sY0bMBqHbnIbpIjfSSIsnrzbauA8Yw==
+meriyah@4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/meriyah/-/meriyah-4.3.4.tgz#01bf73fe07e753908814a5231932f7894fa1e9f0"
+  integrity sha512-XZeXUjBLR8NRaoS9/KZ/zarCYBm4xZWZONf4V92t3MpEHKk+VpLceXsZut3ubzgYcK8+Lll12TB2YhuuJFd23w==
 
 micromatch@^4.0.4:
   version "4.0.4"
