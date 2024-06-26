@@ -457,6 +457,7 @@ const NO_WRAP_PARENTS = new Set([
   "JsExpressionRoot",
 ]);
 function maybeWrapJsxElementInParens(path, elem, options) {
+  return elem;
   const { parent } = path;
 
   if (NO_WRAP_PARENTS.has(parent.type)) {
