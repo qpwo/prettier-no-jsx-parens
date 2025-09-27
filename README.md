@@ -47,7 +47,13 @@ echo 'alias prettier="prettier-no-jsx-parens"' >> ~/.bashrc
 echo 'alias prettier="prettier-no-jsx-parens"' >> ~/.zshrc
 ```
 
-## Vscode setting
+## Vscode settings
+
+Compatible version of esbenp.prettier-vscode:
+
+```sh
+code --install-extension esbenp.prettier-vscode@9.1.0
+```
 
 In your settings.json add
 
