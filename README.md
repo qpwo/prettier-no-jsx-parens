@@ -57,6 +57,10 @@ Compatible version of esbenp.prettier-vscode:
 # this just sets extensions.verifySignature:false in your settings
 perl -i -pe 's/^}$/  "extensions.verifySignature": false,\n}/' "$HOME/Library/Application Support/Code/User/settings.json" && tail -5 "$HOME/Library/Application Support/Code/User/settings.json"
 
+# if you are connected to remote server over ssh:
+echo '{"extensions.verifySignature": false}' > ~/.vscode-server/data/Machine/settings.json
+
+
 code --install-extension esbenp.prettier-vscode@9.1.0
 ```
 
