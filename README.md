@@ -52,6 +52,11 @@ echo 'alias prettier="prettier-no-jsx-parens"' >> ~/.zshrc
 Compatible version of esbenp.prettier-vscode:
 
 ```sh
+# edit: in 2026 you need to disable signature verification since 9.1.0 was before they had that
+
+# this just sets extensions.verifySignature:false in your settings
+perl -i -pe 's/^}$/  "extensions.verifySignature": false,\n}/' "$HOME/Library/Application Support/Code/User/settings.json" && tail -5 "$HOME/Library/Application Support/Code/User/settings.json"
+
 code --install-extension esbenp.prettier-vscode@9.1.0
 ```
 
